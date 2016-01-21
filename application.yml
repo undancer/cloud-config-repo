@@ -1,2 +1,10 @@
 name: sign
 now: now
+---
+spring:
+  profiles: prod
+name: pppp
+---
+spring:
+  profiles: test
+name: test
